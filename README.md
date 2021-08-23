@@ -30,32 +30,32 @@ This portion of the project focuses on the results achieved after compiling, tra
 
 - The accuracy of our deep learning neural network model was **73%** which is not a satisfying performance in predicting the outcome of making effective donations as it is under target perfomance of **75%**. The achieved accuracy of our model is illustrated in the figuree below.
 
-![Model Accuracy]()
+![Model Accuracy](Resources/Initial_Model_Accuracy.png)
 
 To increase the model performance the following attempts were taken:
 
 - Dropping another noisy variable from features which is the **SPECIAL_CONSIDERATIONS** column as shown in the figure below.
 
-![SPECIAL_CONSIDERATIONS]()
-![Model Accuracy Attempt 1]()
+![SPECIAL_CONSIDERATIONS](Resources/Dropped_Special_Consideration.png)
+![Model Accuracy Attempt 1](Resources/Optimization_1_Accuracy.png)
 
 - Adding additional neurons to each of the hidden layers as illusrated in the figure below.
 
-![Additional Neurons]()
-![Model Accuracy Attempt 2]()
+![Additional Neurons](Resources/Optimization_2.png)
+![Model Accuracy Attempt 2](Resources/Optimization_2_Accuracy.png)
 
 - Adding additional hidden layer as depicted in the figure below.
 
-![Additional Hidden Layer]()
-![Model Accuracy Attempt 3]()
+![Additional Hidden Layer](Resources/Optimization_3.png)
+![Model Accuracy Attempt 3](Resources/Optimization_3_Accuracy.png)
 
-- Changing the activation function of the output layer as displayed in the figure blow.
+- Changing the activation function of the output layer from **sigmoid** to **tanh** as displayed in the figure blow.
 
-![Activation Function Changed]()
+![Activation Function Changed](Resources/Optimization_4.png)
 
 After taking all the aforementioned steps, the accuracy score of our model was achieved to be **73** which is still below the target performance of **75%** as shown below.
 
-![Model Performance after all the attempts]()
+![Model Performance after all the attempts](Resources/Final_Model_Accuracy.png)
 
 ## Summary
 
