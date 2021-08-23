@@ -44,7 +44,7 @@ To increase the model performance the following attempts were taken:
 ![Additional Neurons](Resources/Optimization_2.png)
 ![Model Accuracy Attempt 2](Resources/Optimization_2_Accuracy.png)
 
-- Adding additional hidden layer as depicted in the figure below.
+- Adding a third hidden layer with **20** neurons as depicted in the figure below.
 
 ![Additional Hidden Layer](Resources/Optimization_3.png)
 ![Model Accuracy Attempt 3](Resources/Optimization_3_Accuracy.png)
