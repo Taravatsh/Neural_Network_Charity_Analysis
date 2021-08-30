@@ -16,7 +16,7 @@ This section of the report focuses on the steps taken for preprocessing the data
 
 The following considerations were taken into account for the preprocessing stage of the dataset:
 
-- The **IS_SUCCESSFUL** column which contains binary data on whether or not the donation money was used effectively is considered as the target for our deep learning neural network model.
+- The **IS_SUCCESSFUL** column which contains binary data, on whether or not the donation money was used effectively, is considered as the target for our deep learning neural network model.
 
 - The variables that were considered to be the features of our deep learning neural network model are every column of the dataset except the **IS_SUCCESSFUL** column that is used as the target of our model and the columns that are dropped.
 
